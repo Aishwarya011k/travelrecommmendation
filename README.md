@@ -33,7 +33,4 @@ Welcome to **Travel Bloom**, a visually appealing and user-friendly travel recom
 - **Font Awesome** – For icons
 - **JSON** – For mock data (`travel.json`)
 
----
-
-## 📂 File Structure
 
