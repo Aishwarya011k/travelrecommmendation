@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="travel.css">
-    <title>Travel recommmendation</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Recommendation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="travel.css" />
 </head>
 <body>
-    <header>
-        <div class="nav-logo">
-            <img src="logo.png" alt="logo">
-            <h4>Travel 
-                bloom
-            </h4>
-        </div>
-       <div class="link">
-            <a href="travel.html" target="_self">Home</a>
-            <a href="about.html" target="_self">About Us</a>
-            <a href="contact.html" target="_self">Contact Us</a>
-         </div>
-         <div class="search" id="search">
-            <input type="text" placeholder="Search...">
-            <button type="submit">Search</button>
-            <button >clear</button>
-         </div>
-    </header>
-   <div class="hero">
-  <div class="hero-content">
-    <h1>EXPLORE<br>DREAM<br>DESTINATIONS</h1>
-    <p>
-      Designed to inspire, plan, and guide your perfect getaway. Whether you're dreaming of iconic skylines,
-      cultural treasures, or off-the-beaten-path adventures, our smart recommendations help you discover
-      destinations that match your interests and travel style.
-    </p>
-    <div class="bookbutton">
-    <button class="book-now">Book Now</button>
+
+  <header>
+    <div class="nav-logo">
+      <img src="logo.png" alt="logo" />
+      <h4>Travel <br>bloom</h4>
     </div>
-   <div class="socialmediaicons">
-    <i class="fa-brands fa-facebook"></i>
-    <i class="fa-brands fa-instagram"></i>
-   <i class="fa-brands fa-x-twitter"></i>
-   <i class="fa-brands fa-linkedin"></i>
 
-  </div>
-  </div>
-  
-</div>
+    <div class="link">
+      <a href="travel.html" target="_self">Home</a>
+      <a href="about.html" target="_self">About Us</a>
+      <a href="contact.html" target="_self">Contact Us</a>
+    </div>
 
+    <div class="search">
+      <input type="text" id="search-text" placeholder="Search" />
+      <button type="button" id="btn">Search</button>
+      <button type="button" id="clearBtn">Clear</button>
+    </div>
+        <div id="results" class="results-container"></div>
+  </header>
+
+  <div class="hero">
+      <div id="results" class="results-container"></div>
+
+    <div class="hero-content">
+      <h1>EXPLORE<br>DREAM<br>DESTINATIONS</h1>
+      <p>
+        Designed to inspire, plan, and guide your perfect getaway. Whether you're dreaming of iconic skylines,
+        cultural treasures, or off-the-beaten-path adventures, our smart recommendations help you discover
+        destinations that match your interests and travel style.
+      </p>
+      <div class="bookbutton">
+        <button class="book-now">Book Now</button>
+      </div>
+      <div class="socialmediaicons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Results -->
+
+  <!-- JS Search Logic -->
+  <script src="travel.js">
+   
+  </script>
 </body>
 </html>

@@ -264,3 +264,47 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.results-container {
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background: #fff;
+      z-index: 1000;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .card-content h3 {
+      margin: 0;
+      color: black;
+      font-size: 16px;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      color: #555;
+      margin-top: 10px;
+    }
+    .card-content button {
+      padding: 5px 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }

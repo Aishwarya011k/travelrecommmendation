@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="travel.css">
-    <title>conatact </title>
+    <title>contact </title>
+   
 </head>
 <body>
      <header>
@@ -20,10 +21,11 @@
             <a href="contact.html" target="_self">Contact Us</a>
          </div>
          <div class="search">
-            <input type="text" placeholder="Search...">
-            <button type="submit">Search</button>
-            <button >clear</button>
-         </div>
+      <input type="text" id="search-text" placeholder="Search" />
+      <button type="button" id="btn">Search</button>
+      <button type="button" id="clearBtn">Clear</button>
+    </div>
+        <div id="results" class="results-container"></div>
     </header>
    <div class="hero">
 
@@ -39,6 +41,6 @@
 
 </div>
    </div>
-
+ <script src="travel.js"></script>
 </body>
 </html>
