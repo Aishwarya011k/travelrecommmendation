@@ -119,3 +119,148 @@ body {
     margin-top: 20px;
     font-size: 16px;
 }
+
+.hero-content button:hover {
+    background-color: #1e4a20;
+}
+
+.socialmeadiaicons {
+   display: flex;
+   gap: 100px; /* spacing between icons */
+   padding-left: 20px;
+   height: 50px;
+   align-items: center;
+   margin-top: 100px;
+   font-size: 100px;
+   color: white; /* make icons bright */
+}
+
+
+
+.socialmeadiaicons i {
+   transition: transform 0.2s ease, color 0.2s ease;
+   cursor: pointer;
+}
+
+.socialmeadiaicons i:hover {
+   transform: scale(1.2);
+   color: #1DA1F2; /* example: Twitter blue or use platform colors */
+}
+
+.about-us {
+  padding: 100px 200px;
+  color: white;
+}
+
+.description {
+  font-size: 16px;
+  font-style: italic;
+  max-width: 800px;
+}
+
+.team-title {
+  font-size: 32px;
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.hero-con2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid white;
+}
+
+.member h3 {
+  margin: 5px 0;
+  font-size: 18px;
+  color: white;
+}
+
+.developer {
+  font-size: 14px;
+  color: white;
+  font-style: italic;
+}
+
+.member button {
+    
+  padding: 10px 20px;
+  background-color: #255e27;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #1d4a20;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 300px;
+  padding: 50px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.contact-heading {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+}
+
+.contact-form {
+  display: flex;
+ 
+  border: transparent;
+  
+  flex-direction: column;
+  background-color: transparent;
+  width: 700px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+   color: white;
+  max-width: 900px;
+    border: solid 2px #255e27;
+   border-radius: 5px;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #255e27;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
