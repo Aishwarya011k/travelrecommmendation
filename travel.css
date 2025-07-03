@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+header {
+    background-color: #163125;
+    color: white;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    align-items: center ;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.nav-logo h4 {
+    margin-left: 10px;
+    font-size: 24px;
+}
+.link {
+    display: flex;
+    gap: 50px;
+    
+}
+.link a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.link a:hover {
+    text-decoration:solid ;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+}
+
+.search input {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+.search button {
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: contents;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(18, 126, 45, 0.5), rgba(18, 126, 45, 0.5)), url('hero bg.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+}
+
+.hero-content {
+    margin-left: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero h1 {
+    font-size: 48px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 200px;
+}
+
+.hero p {
+    font-size: 16px;
+    font-style: italic;
+    max-width: 600px;
+    text-align: left;
+    margin-bottom: 200px;
+}
